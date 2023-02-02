@@ -1,5 +1,13 @@
 # Quora_Question_Pairs
-Playing with siamese networks to solve the quora question pairs kaggle problem
+
+# Goal:
+
+1. Understand how the triplet loss works
+2. Understand how to evaluate accuracy
+3. Use cosine similarity between the model's outputted vectors
+4. Predict the built model
+
+# Intro:
 
 ## Quora
 
