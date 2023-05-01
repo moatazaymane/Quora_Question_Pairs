@@ -10,5 +10,5 @@ POOLED_OUTPUT_DIM = 768
 
 TRAINING_DATASET = 'train.csv'
 TEST_DATASET = 'test.csv'
-BERT_PATH = 'bert_base_uncased'
+BERT_PATH = 'bert-base-uncased'
 TOKENIZER = transformers.BertTokenizer.from_pretrained(BERT_PATH, do_lower_case = True)
