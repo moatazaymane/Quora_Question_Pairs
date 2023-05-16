@@ -48,7 +48,7 @@ def lda_topic_modeling(dataframe, text_column, num_topics=10):
     print(f"Coherence Score: {coherence_lda:.3f}")
     for idx, topic in lda_model.print_topics(-1):
         print(f"Topic: {idx} \nWords: {topic}\n")
-
+    # word cloud 
     # Create word cloud for each topic
     for idx in range(num_topics):
         plt.figure()
